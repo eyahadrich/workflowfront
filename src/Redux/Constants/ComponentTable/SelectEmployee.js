@@ -1,0 +1,2 @@
+
+export const GET_ALL_EMPLOYEE= 'GET_ALL_EMPLOYEE';

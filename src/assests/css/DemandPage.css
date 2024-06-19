@@ -1,0 +1,96 @@
+.main-container {
+    background-color: transparent;
+    width: 1000px;
+    height: fit-content;
+    flex-wrap: wrap;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.form-input {
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid lightgrey;
+    outline: none;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+    box-shadow: 0px 0px 20px -18px;
+}
+
+.form-input:hover {
+    border: 2px solid lightgrey;
+    box-shadow: 0px 0px 20px -17px;
+}
+
+.form-input:active {
+    transform: scale(0.95);
+}
+
+.form-input:focus {
+    border: 2px solid grey;
+}
+
+/* Specific styles for different input types */
+.form-input[type="text"] {
+    width: 60%;
+    /* Add specific styles for text input */
+}
+
+.form-input[type="number"] {
+    width: auto;
+    /* Add specific styles for number input */
+    text-align: left;
+}
+
+.form-input[type="email"] {
+    /* Add specific styles for email input */
+    width: 50%;
+}
+.form-input[type="date"] {
+    width: auto;
+    text-align: left;
+
+}
+
+/* Styles for input of type "date" */
+.form-input[type="date"] {
+    width: auto;
+    text-align: left;
+}
+ .add,
+ .reset{
+    padding: 1em 2em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+     margin-right:10px !important;
+    border: none;
+    border-radius: 12px !important;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.add:hover {
+    background-color:#1293b8;
+    box-shadow: 0px 15px 20px #1293b8;
+    color: #fff;
+    transform: translateY(-7px);
+}
+.reset:hover {
+    background-color:#a90329;
+    box-shadow: 0px 15px 20px #a90329;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+.button-container{
+    margin-top: 30px;
+}

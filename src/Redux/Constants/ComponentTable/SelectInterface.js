@@ -1,0 +1,1 @@
+export const GET_ALL_INTERFACE= 'GET_ALL_INTERFACE';

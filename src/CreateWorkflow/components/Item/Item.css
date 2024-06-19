@@ -1,0 +1,51 @@
+.item-container:hover .delete-button {
+    display: inline-block; /* Show the delete button on hover */
+}
+.item-container {
+    background-color: #e4e4e4;
+    margin-bottom: 8px;
+    padding: 16px;
+    user-select: none;
+    border-radius: 20px;
+
+
+}
+.delete-button {
+    background-color: transparent;
+    border: none;
+
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    display: none;
+}
+.edit-button{
+    background-color: transparent;
+    border: none;
+
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    display: none;
+}
+.item-container:hover .edit-button {
+    display: inline-block; /* Show the delete button on hover */
+}
+.apply{
+    border: none;
+    background-color: transparent;
+    color: #32325d ;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cancel{
+    border: none;
+    background-color: transparent;
+    color: darkred ;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+
+}

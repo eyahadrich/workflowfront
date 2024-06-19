@@ -1,0 +1,1 @@
+export const GET_ALL_Equipe= 'GET_ALL_Equipe';
