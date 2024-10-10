@@ -6,7 +6,7 @@ import {LOGIN, LOGOUT, SET_EMPLOYEE_DATA} from "../../Constants/Login/Login";
 export const signIn = (username, password) => {
     return dispatch => {
         return new Promise((resolve, reject) => {
-            axios.post(`${Ressources.CoreUrlC}/workflow-core/auth/authenticate`, {
+            axios.post(`${Ressources.CoreUrlC}/workflow-core/api/employs/authentication`, {
                 username: encodeURIComponent(username),
                 password: encodeURIComponent(password)
             })
